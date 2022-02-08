@@ -42,3 +42,5 @@ The finish application will then be deployed on Heroku.
 ## Build process
 
 - create a readme file and add described the application .
+- created the file index.js and the functions that will render note.html and index.html
+-
