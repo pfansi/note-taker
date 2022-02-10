@@ -43,4 +43,5 @@ The finish application will then be deployed on Heroku.
 
 - create a readme file and add described the application .
 - created the file index.js and the functions that will render note.html and index.html
--
+- created the the functions in index.js in utils folder that will render , read and write into files.
+- Index.js for the router created
