@@ -1,22 +1,26 @@
-const path = require("path");
+// Dependencies
 const express = require("express");
-var uuidv1 = require("uuidv1");
 
-const routes = require("/routes");
-
-// setting an environment port
-const PORT = process.env.PORT || 3001;
-
+// Express configuration
+//Tells node that we are creating an 'express' server
 const app = express();
 
-// Set middlewares functions that will parse incoming string or array data
+// Sets an initial port.
+const PORT = process.env.PORT || 3001;
+
+// Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
-// parse incoming JSON data
 app.use(express.json());
 app.use(express.static("public"));
 
-app.use(routes);
+// ROUTES
+require("./routes/apiRoutes")(app);
+require("./routes/htmlRoutes")(app);
 
-app.listen(PORT, () => {
-  console.log(`API server now on port ${PORT}!`);
+// require("./routes/apiRoutes");
+
+// require("./routes/htmlRoutes");
+
+app.listen(PORT, function () {
+  console.log(`App listening at http://localhost:${PORT} 🚀`);
 });
