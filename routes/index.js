@@ -9,7 +9,8 @@ router.get("/", (res, res) => {
   res.send("From routes folder");
 });
 
-router.use();
+// use of both html and api routes
+router.use(htmlRoutes);
 router.use("/api", apiRoutes);
 
 route.module.exports = router;

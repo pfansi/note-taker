@@ -1,13 +1,15 @@
-const fs = require("fs");
 const path = require("path");
 const express = require("express");
-const dbJson = require("./db/db.json");
 var uuidv1 = require("uuidv1");
 
+const routes = require("/routes");
+
+// setting an environment port
 const PORT = process.env.PORT || 3001;
+
 const app = express();
 
-// parse incoming string or array data
+// Set middlewares functions that will parse incoming string or array data
 app.use(express.urlencoded({ extended: true }));
 // parse incoming JSON data
 app.use(express.json());
