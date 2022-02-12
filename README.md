@@ -35,23 +35,23 @@ Application video [demo](https://watch.screencastify.com/v/wL4R3eTraFFwlwbNR8pA)
 
 This project required to build a Node.js application that will allow users to write and save notes.Users will also be able to retrieve previous notes saved.
 The application will be using an Express.js module at the back end.
-The finish application will then be deployed on Heroku.
+The finished application will then be deployed on Heroku.
 
 ## pseudo code description
 
-- the application will be access from a link at the front landing page.
+- the application will be accessed from a link at the front landing page.
 - the note page will show previously saved notes.
-- when clicking on a previously saved notes featured we will be able to see the full content .
+- when clicking on previously saved notes featured we will be able to see the full content .
 - the note page will allow the user to enter the note title and description
 - a save button from the note page will allow the user to save the current note.
 
 ## Build process
 
-- create a readme file and add described the application .
+- create a readme file and describe the application .
 - created the file index.js and the functions that will render note.html and index.html
-- created the the functions in index.js in utils folder that will render , read and write into files.
+- created the functions in index.js in utils folder that will render , read and write into files.
 - Index.js for the router created
-- HTML and API router created and use in index.js
+- HTML and API router created and used in index.js
 - created server.js file and commented codes.
 - application connected and deployed to Heroku via Github page
 
