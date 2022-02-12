@@ -5,6 +5,7 @@
 ## Table of Contents:
 
 - [Git-Repository](#git-repository)
+- [Deployed-Application](#deployed-application)
 - [Demo-Video](#walktrough-video)
 - [Description](#description)
 - [Pseudo-code-Description](#pseudo-code-description)
@@ -19,11 +20,16 @@
 
 ## Git Repository
 
-I created a git repository folder that will host the finished project. The Repository will be found [here](https://github.com/pfansi/note-taker)
+I created a git repository folder that will host the finished project.
+The Repository will be found [here](https://github.com/pfansi/note-taker)
+
+## Deployed Application
+
+The deployed application to Heroku will be found [here](https://pfansi-note-taker-express.herokuapp.com/notes)
 
 ## Link to the walktrough video
 
-Application video [demo]()
+Application video [demo](https://watch.screencastify.com/v/wL4R3eTraFFwlwbNR8pA)
 
 ## Description:
 
@@ -48,3 +54,52 @@ The finish application will then be deployed on Heroku.
 - HTML and API router created and use in index.js
 - created server.js file and commented codes.
 - application connected and deployed to Heroku via Github page
+
+## Installation:
+
+---
+
+Run this command to install dependencies:
+
+  <pre><code>
+  npm install
+  </code></pre>
+
+## Usage:
+
+---
+
+Run this command to start the app:
+
+  <pre><code>
+  npm start
+  </code></pre>
+
+## Tests:
+
+Run this command to run the test
+
+<pre><code>
+  npm run test:watch
+  </code></pre>
+
+## License:
+
+[License: MIT](https://opensource.org/licenses/MIT)
+
+# This Project is licensed under the MIT license
+
+## Contributing:
+
+Project is opened for contributions.
+
+## Questions:
+
+- **Contact details:**
+  - Github: [@pfansi](https://github.com/pfansi)
+  - Email: pfansi76@gmail.com
+
+## Screenshots
+
+- Screenshot of the finished application
+  ![screenshot](./public/assets/images/note_taker_app.JPG)
