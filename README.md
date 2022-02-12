@@ -46,3 +46,5 @@ The finish application will then be deployed on Heroku.
 - created the the functions in index.js in utils folder that will render , read and write into files.
 - Index.js for the router created
 - HTML and API router created and use in index.js
+- created server.js file and commented codes.
+- application connected and deployed to Heroku via Github page
